@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mac-book-pro</title>
+    <!-- bootstrap-link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    
+    
+</head>
+<body>
+    <main>
+        <section class="container mt-5 d-flex ">
+            <!-- banner img -->
+            <div class="col-md-6 mt-5 ">
+                <img class="img-fluid" src="images/mac-book-pro.jpg" alt="">
+            </div>
+            <div class="col-md-6 ms-5 ">
+                <div>
+                    <h3 class="mb-4">Mac-Book-Pro</h3>
+                    <h1>16‑inch LED‑backlit display.The best for the brightest</h1>
+                    <p>Apple mac-book-pro 8 core CPU with 4 performance cores and 4 efficiency cores. 7 core gpu and 16 core natuarul Engine 8 Gb unified memory 256 GB ssd storage Tow Thunderbolt/ USB 4 ports Magic Mouse, Magic keyboard-US english. </p>
+                </div>
+                <!-- select option -->
+                <div>
+                    <div class="mb-3">
+                        <h4>Memory</h4>
+                        <button id="fixed-memory" class="btn btn-primary">8 GB unified memory</button>
+                        <button id="update-memory" class="btn btn-primary ">16 GB unified memory</button>
+                    </div>
+                    <div class="mb-3">
+                        <h4>Storage</h4>
+                        <button id="fixed-storage" class="btn btn-primary">256 GB SSD storage</button>
+                        <button id="update-storage-v1" class="btn btn-primary ">512 GB SSD storage</button>
+                        <button id="update-storage-v2" class="btn btn-primary ">1 TB SSD storage</button>
+                    </div>
+                    <div class="mb-3">
+                        <h4>Choose Your Delivery Option</h4>
+                        <button id="free-delivery" class="btn btn-primary">Friday Aug 25 FREE Prime Delivery</button>
+                        <button id="delivery-cost" class="btn btn-primary ">Friday Aug 21 Delivery Charge $20</button>
+                    </div>
+                </div>
+
+                <!-- total price -->      
+                <table class="table mt-5 fs-5">
+                    <thead>
+                      <tr>
+                        <th scope="row">Best Price:   </th>
+                        <td>$<span id="base-price" class="fw-bold">1299</span></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Extra Memory Cost:  </th>
+                        <td>$<span id="memory-price" class="fw-bold"> 0</span></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Extra Storage Cost:  </th>
+                        <td>$<span id="storage-price" class="fw-bold"> 0</span></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Delivery Charge:  </th>
+                        <td>$<span id="delivery-total-cost" class="fw-bold"> 0</span></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Total Price : </th>
+                        <td>$<span id="total-price" class="fw-bold"> 0</span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- extra section  -->
+                <div class="mt-5">
+                    <p class="fs-5 fw-bold">Add Promo Code</p>
+                    <input id="input-value" type="text">
+                    <button id="apply-btn" class="btn btn-danger">Apply</button>
+                </div><hr>
+                <div>
+                     <h1>Total : $ <span id="total"> 1299</span></h1> 
+                </div>
+            </div>
+
+           
+        </section>
+    </main>
+
+    <!-- external script File link -->
+    <script src="JS/main.js"></script>
+</body>
+</html>
